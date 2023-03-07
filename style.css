@@ -477,12 +477,13 @@ body.dark-theme {
     font-weight: 500;
 }
 
-#project .project-container .project-box .demo {
+#project .project-container .project-box a {
     font-size: 1.5rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
-#project .project-container .project-box .demo:hover {
+#project .project-container .project-box a:hover {
     text-decoration: underline;
 }
 
